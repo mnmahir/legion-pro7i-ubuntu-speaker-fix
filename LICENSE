@@ -21,5 +21,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 Scope: the original installer wrapper, guide text and schematic graphics.
-Linux source, third-party packages and separately downloaded vendor firmware
-are not included in this license grant and retain their own licenses.
+The third-party Ko-fi button artwork, Linux source, third-party packages and
+separately downloaded vendor firmware are not included in this license grant
+and retain their own licenses.

@@ -6,6 +6,11 @@
   "installer_bytes": 26357,
   "installer_sha256": "fe2f6d69fc0bb953d16ec97ac560634bee9f7f68c7ee88f346539897e132f669",
   "reader_machine_inspected_by_html": false,
+  "support": {
+    "url": "https://ko-fi.com/H2H818H9M3",
+    "button_source": "https://storage.ko-fi.com/cdn/kofi2.png?v=6",
+    "button_embedded_in_guide": true
+  },
   "firmware": {
     "embedded": false,
     "url": "https://raw.githubusercontent.com/nadimkobeissi/16iax10h-linux-sound-saga/113031db46e1781ad55a2eafbcb284c2d7df9830/fix/firmware/aw88399_acf.bin",

@@ -4,6 +4,8 @@ A hardware-specific installer and interactive guide for the **Lenovo Legion Pro 
 
 The upstream audio-driver work is credited to [the 16IAX10H Linux sound project](https://github.com/nadimkobeissi/16iax10h-linux-sound-saga). This project supplies an Ubuntu installation wrapper, verification and rollback commands, and a self-contained illustrated explanation.
 
+<a href='https://ko-fi.com/H2H818H9M3' target='_blank' rel='noopener noreferrer'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 ## Read the guide
 
 Download [LegionPro7i_Speaker_Guide.html](LegionPro7i_Speaker_Guide.html) and open it in a modern browser. The guide includes seven chapters, 2D/3D simulations, boot replay, script download, a local diagnosis interpreter and a printable layout. The simulations do not inspect hardware or measure speaker output.
@@ -103,4 +105,4 @@ For a useful issue report, include the model and codec IDs, Ubuntu and kernel ve
 - [Linux kernel patch discussion](https://lkml.iu.edu/hypermail/linux/kernel/2607.2/03686.html): AW88399 integration and model quirks.
 - [Canonical Secure Boot documentation](https://documentation.ubuntu.com/security/security-features/platform-protections/secure-boot/): signing and enrollment workflow.
 
-The original installer wrapper, guide text and schematic graphics use the [MIT license](LICENSE). Linux, third-party packages and separately downloaded vendor firmware keep their own licenses. This is a community project, not an official Lenovo or Ubuntu support package.
+The original installer wrapper, guide text and schematic graphics use the [MIT license](LICENSE). The third-party Ko-fi button artwork is excluded from that license grant. Linux, third-party packages and separately downloaded vendor firmware keep their own licenses. This is a community project, not an official Lenovo or Ubuntu support package.
