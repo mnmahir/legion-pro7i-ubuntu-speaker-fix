@@ -1,0 +1,61 @@
+{
+  "release": "1.3.1",
+  "edition": "public GitHub distribution",
+  "documented_date": "2026-11-06",
+  "installer_filename": "legion-speaker-fix.sh",
+  "installer_bytes": 26357,
+  "installer_sha256": "fe2f6d69fc0bb953d16ec97ac560634bee9f7f68c7ee88f346539897e132f669",
+  "reader_machine_inspected_by_html": false,
+  "firmware": {
+    "embedded": false,
+    "url": "https://raw.githubusercontent.com/nadimkobeissi/16iax10h-linux-sound-saga/113031db46e1781ad55a2eafbcb284c2d7df9830/fix/firmware/aw88399_acf.bin",
+    "sha256": "1e927c9bca76d868181c0f81df2bccef3cf19c7d0910219f229360c87babd42c",
+    "bytes": 152416,
+    "license": "Vendor binary obtained separately; not covered by this project license"
+  },
+  "kernel": {
+    "version": "7.3.1",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.3.1.tar.xz",
+    "sha256": "fa595aad93734f829c963c2a90ef7c3673224fd7fdae7b49406e397cde2de231",
+    "automatic_ubuntu_kernel_security_updates": false
+  },
+  "tested_configuration": {
+    "type": "anonymized tested configuration, not live reader state",
+    "tested_date": "2026-11-06",
+    "hardware": {
+      "model": "Legion Pro 7 16IAX10H",
+      "dmi_product": "83F5",
+      "codec": "Realtek ALC287",
+      "codec_ssid": "17aa:3906",
+      "controller_ssid": "17aa:3d6c",
+      "amplifier_acpi_id": "AWDZ8399"
+    },
+    "operating_system": "Ubuntu 24.04.5 LTS",
+    "before": {
+      "kernel": "7.0.0-42-generic",
+      "hda_woofer_driver": "absent",
+      "aw88399_firmware": "absent"
+    },
+    "after": {
+      "kernel": "7.3.1-legion-aw88399",
+      "secure_boot": "enabled",
+      "hda_amplifier_bindings": "2/2",
+      "nvidia_driver": "595.99.02",
+      "subjective_result": "Bass and normal loudness restored"
+    },
+    "limits": [
+      "One physical configuration",
+      "No acoustic measurements",
+      "Codec SSID 17aa:3907 not independently tested with this wrapper",
+      "No confirmed headphone, microphone or suspend/resume result",
+      "Other Ubuntu releases not validated end to end"
+    ]
+  },
+  "validation_scope": {
+    "reference_core_release": "1.3",
+    "reference_core_end_to_end": "Completed on the tested configuration",
+    "public_release_change": "Firmware acquisition uses a pinned download instead of embedding the vendor binary",
+    "fresh_privileged_install_of_public_edition": "Not repeated",
+    "public_script_checks": "Bash syntax, ShellCheck, firmware transport/integrity regression checks and browser/download verification"
+  }
+}
